@@ -1,0 +1,54 @@
+
+
+.painel{
+  margin: 2em auto;
+  background-color: white;
+  border-radius: 90px;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  font-family:var(--fonte-secundaria);
+  color: var(--vermelho);
+  font-size: 36px;
+  padding-bottom: 2em;
+}
+.pedido__imagem{
+  width: 350px;
+  padding-left: 80px;
+  padding-bottom: 24px;
+ }
+.pedido__texto{
+  padding-bottom: 1em;
+}
+h2{
+  padding: 2em;
+}
+#sim{
+  height: 60px;
+  width: 110px;
+background-color: var(--vermelho);
+color: var(--bege);
+font-family: var(--fonte-secundaria);
+border:2px solid var(--bege);
+border-radius: 10px;
+text-align: center;
+margin-left: -188px;
+font-size: 24px;
+}
+
+#nao{
+  position: absolute;
+  height: 60px;
+  width: 110px;
+  background-color: var(--vermelho);
+  color: var(--bege);
+  font-family: var(--fonte-secundaria);
+  border: 2px solid var(--bege);
+  border-radius: 10px;
+  margin-left: 70px;
+  text-align: center;
+  font-size: 24px;
+}
+#sim:hover{
+  background-color: rgba(239, 80, 80, 0.642)
+}

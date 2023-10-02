@@ -1,0 +1,133 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2? family= Salsa & display=swap');
+
+
+:root{
+  --vermelho: #9E1414;
+  --bege: #FFFADD;
+  --fonte-principal:'Poppins';
+  --cor-hover:#FFEB7D;
+  --fonte-secundaria: 'Salsa', cursive;;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: var(--fonte-principal);
+  background-color: var(--bege);
+  font-size: 16px;
+}
+
+ a:hover{
+  background-color: var(--cor-hover);
+ }
+
+ ::-webkit-scrollbar {
+  width: 15px;
+  background-color: var(--bege);
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--vermelho);
+}
+
+.cabecalho{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: var(--vermelho);
+  padding: 0.8em;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.4);
+  z-index: 9; 
+}
+
+.cabecalho__imagem{
+  width: 5%;
+}
+
+.cabecalho__menu{
+  width: 95%;
+  background-color: var(--vermelho);
+  justify-content: center;
+  margin: 1em;
+}
+
+.cabecalho__menu__link{
+  color: var(--vermelho);
+  text-decoration: none;
+  font-weight: 700;
+  background-color:var(--bege);
+  padding: 0.8em;
+  margin: 0.5em;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
+}
+
+section{
+  min-height: 100vh;
+}
+.conteudo__principal{
+display: grid;
+grid-template-columns: 65% 35%;
+padding-top: 5em;
+margin: 0 6em 6em 6em;
+justify-content: center;
+align-items: center;
+}
+
+.imagem-titulo{
+  display: grid;
+  width: 100%;
+  margin-top: 2em;
+  grid-template-columns:10% 90%;
+  align-items: center;
+  column-gap: 1px;  
+  justify-content: start;
+}
+
+.conteudo__principal__titulo{
+  font-family: var(--fonte-principal);
+  font-size: 24px;
+  font-weight: 700;
+  text-align:initial;
+  margin-left: 0.5em;
+  white-space: nowrap;
+  padding-left: 0;
+  padding-bottom:1.5em;
+}
+
+.conteudo__principal__texto {
+  padding-top: 1em;
+  line-height: 2em;
+  text-align: justify;
+  text-indent: 0.5em;
+  
+}
+
+.conteudo__memorias{
+background-color: var(--vermelho);
+}
+
+.rodape{
+  display:flex;
+  width: 100%;
+  background-color: var(--vermelho);
+  padding: 1em;
+  box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
+}
+
+.rodape__texto{
+  color: var(--bege);
+  padding-top: 1em;
+  font-family: var(--fonte-principal);
+  font-weight: 700;
+  text-align: center;
+}
+
+
+
+
+
+

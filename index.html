@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/slide.css">
+  <link rel="stylesheet" href="./css/pedido.css">
+  <link rel="stylesheet" href="./css/carrossel.css">
+  <title> WW <3 </title>
+      <script src="./Js/pedido.js"></script>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="cabecalho__imagem" src="./img/Bentô cabecalho.png" alt="bento abraçado">
+    <nav class="cabecalho__menu">
+      <a href="#home" class="cabecalho__menu__link"> Home </a>
+      <a href="#memorias" class="cabecalho__menu__link"> Memórias </a>
+      <a href="#pedido-especial" class="cabecalho__menu__link"> Pedido especial</a>
+    </nav>
+  </header>
+  <section id="home" class="conteudo__principal">
+    <div data-slide="slide" class="slide">
+      <div class="slide-items">
+        <img src="./img/img1.jpg" alt="Img 1">
+        <img src="./img/img2.jpg" alt="Img 2">
+        <img src="./img/img3.jpg" alt="Img 3">
+        <img src="./img/img4.jpg" alt="Img 4">
+      </div>
+      <nav class="slide-nav">
+        <div class="slide-thumb"></div>
+        <button class="slide-prev">Anterior</button>
+        <button class="slide-next">Próximo</button>
+      </nav>
+    </div>
+    <div class="conteudo__principal__texto">
+      <div class="imagem-titulo">
+        <img class="conteudo__principal__imagem" src="./img/bento1.png" alt="bento">
+        <h2 class="conteudo__principal__titulo"> Feliz aniversário, meu amor!</h2>
+      </div>
+      <p class="conteudo__principal__texto"> Quase 7 anos de um amor imperfeito que flui perfeitamente como se já estivesse desenhado. Desde que nos encontramos, crescemos juntos e isso só aumenta. Grata por poder partilhar a vida contigo. Eu te amo, que Deus nos dê sabedoria e tempo para criar e reviver boas memórias.
+      </p>
+      <p class="conteudo__principal__texto"> Como já dizia Carl Sagan, Diante da vastidão do tempo e da imensidão do universo, é um imenso prazer para mim dividir um planeta e uma época com você.
+      </p>
+  </section>
+
+  <section id="memorias" class="conteudo__memorias">
+    <div class="conteudo_memorias-container">
+      <h2 class="memorias__texto"> ♡♡♡♡♡ Amo dividir a vida com você e colecionar momentos incríveis ♡♡♡♡♡ </h2>
+      <button class="seta__esquerda control" aria-label="previous image">◀</button>
+      <button class="seta__direita control" aria-label="next image">▶</button>
+      <div class="galeria-wrapper">
+        <div class="galeria">
+          <img class="item item__atual" src="./img/img8.jpg" alt="foto1">
+          <img class="item item__atual" src="./img/img9.jpg" alt="foto 2">
+          <img class="item item__atual" src="./img/img7.jpg" alt="foto 3">
+          <img class="item item__atual" src="./img/img5.jpg" alt="foto 4">
+          <img class="item item__atual" src="./img/img6.jpg" alt="foto 5">
+        </div>
+
+      </div>
+      <script src="./Js/carrossel.js"></script>
+    </div>
+
+  </section>
+  <section id="pedido-especial" class="conteudo__pedido">
+    <div class="painel">
+      <h2 class="pedido__texto">ACEITA JANTAR COMIGO?</h2>
+      <img class="pedido__imagem" src="https://media2.giphy.com/media/eSQKNSmg07dHq/giphy.gif?cid=ecf05e47ltl4zbp77vtn28j115kjtugqzr5jq8isvtg7inyb&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="">
+      <a href="https://www.youtube.com/watch?v=vmBoMQk2JPE"> <button id="sim">SIM</button></a>
+      <button onmouseover="fuja()" id="nao">NÃO</button>
+    </div>
+
+
+
+  </section>
+
+  <script src="./Js/slide-stories.js"></script>
+</body>
+
+</html>
